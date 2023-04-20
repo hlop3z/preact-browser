@@ -1,2 +1,3 @@
-# preact-browser
-Preact for the browser
+# Preact-Browser
+
+Preact for the browser.
