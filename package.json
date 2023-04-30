@@ -5,7 +5,7 @@
   "main": "src/main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "after": "echo var preact = PREACT.default; >> dist/bundle.min.js",
+    "after": "echo var preact = PREACT.default; window.h = preact.h; >> dist/bundle.min.js",
     "build": "webpack && npm run after"
   },
   "keywords": [],
