@@ -1,3 +1,4 @@
+import injectCSS from "./css";
 import { signal, computed, effect, batch } from "@preact/signals";
 import { Component, createContext, h, render } from "preact";
 import {
@@ -15,6 +16,9 @@ import {
 } from "preact/hooks";
 
 export default {
+  // CSS
+  injectCSS,
+  // Preact
   Component,
   createContext,
   h,
